@@ -2,10 +2,11 @@
 
 `Dynamo-JS` is the read-only archive of the legacy JavaScript implementation of Dynamo.
 
-This archive has been realigned to the final JavaScript snapshot from the main repository immediately before JS removal:
+This archive has been realigned to the JavaScript snapshot from the main repository at the requested baseline commit:
 
-- source commit: `b307ca7`
+- source commit: `8cda461`
 - snapshot scope: `src/`, `dashboard/`, `bot.js`, `config.js`, legacy docs, and original Node manifests
+- excluded from this resync: `src/commands/gameinfo/maint.js`, `src/commands/gameinfo/pll.js`
 
 ## What To Read
 
